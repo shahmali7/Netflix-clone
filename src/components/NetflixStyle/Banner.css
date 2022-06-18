@@ -1,0 +1,123 @@
+.Banner{
+    height: 500px;
+    color: white;
+}
+.banner-content{
+    height: 170px;
+    margin-left: 30px;
+    padding-top: 150px;
+}
+.banner-title{
+    font-size: 2.5rem;
+    padding-bottom: 30px;
+}
+.banner-description{
+    max-width: 400px;
+    padding-top: 20px;
+}
+.banner-button{
+    height: 40px;
+    width: 62px;
+    font-size: 1rem;
+    margin-left: 20px;
+    margin-right: 20px;
+    border: none;
+    border-radius: 3px;
+    outline: none;
+    cursor: pointer;
+    color: white;
+    background-color: rgba(69, 63, 63, 0.4);
+}
+.banner-button:hover{
+    color: black;
+    background-color: rgba(224, 212, 212, 0.4);
+    transition: all 0.5s ease;
+}
+@media screen and (max-width:480px) and (max-height:500px) {
+    .Banner{
+        height: 400px;
+    }
+    .banner-content{
+        height: 130px;
+        margin-left: 20px;
+        padding-top: 70px;
+    }
+    .banner-title{
+        font-size: 2rem;
+    }
+    .banner-description{
+        max-width: 300px;
+        padding-top: 10px;
+    }
+    .banner-button{
+        height: 35px;
+        width: 60px;
+        font-size: 1rem;
+    }
+}
+@media screen and (max-width:768px) and (max-height:800px) {
+    .Banner{
+        height: 400px;
+    }
+    .banner-content{
+        height: 145px;
+        margin-left: 20px;
+        padding-top: 60px;
+    }
+    .banner-title{
+        font-size: 1.8rem;
+    }
+    .banner-description{
+        max-width: 300px;
+        padding-top: 10px;
+    }
+    .banner-button{
+        height: 35px;
+        width: 60px;
+        font-size: 1rem;
+    }
+}
+@media screen and (max-width:992px) and (max-height:1100px) {
+    .Banner{
+        height: 400px;
+    }
+    .banner-content{
+        height: 170px;
+        margin-left: 20px;
+        padding-top: 60px;
+    }
+    .banner-title{
+        font-size: 2rem;
+    }
+    .banner-description{
+        max-width: 300px;
+        padding-top: 10px;
+    }
+    .banner-button{
+        height: 35px;
+        width: 60px;
+        font-size: 1rem;
+    }
+}
+@media screen and (max-width:1200px) {
+    .Banner{
+        height: 400px;
+    }
+    .banner-content{
+        height: 170px;
+        margin-left: 20px;
+        padding-top: 60px;
+    }
+    .banner-title{
+        font-size: 2rem;
+    }
+    .banner-description{
+        max-width: 300px;
+        padding-top: 10px;
+    }
+    .banner-button{
+        height: 35px;
+        width: 60px;
+        font-size: 1rem;
+    }
+}

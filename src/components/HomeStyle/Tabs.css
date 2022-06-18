@@ -1,0 +1,150 @@
+.HomeTab{
+    background-color: black;
+    color: white;
+}
+.OutLet{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.NavTabs{
+    top: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.NavTabs a{
+    font-size: 3rem;
+    text-align: center;
+    color: white;
+    text-decoration: none;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.NavTabs a:focus{
+    color: rgb(161, 151, 151);
+    padding-bottom: 7px;
+    border-bottom: 3px solid red;
+}
+.NavTabs p{
+    font-size: large;
+}
+.LeaveTab{
+    display: flex;
+    align-items: center;
+    margin-top: 15px;
+}
+.LeaveTab img{
+    height: 300px;
+    width: 430px;
+}
+.content-Tab p{
+    font-size: 1.55rem;
+    margin-bottom: 10px;
+}
+.Cancel{
+    background-color: red;
+    text-decoration: none;
+    font-size: 1.50rem;
+    height: 60px;
+    width: 250px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 3px;
+}
+table{
+    border: 2px solid grey;
+    height: 250px;
+    padding: 20px;
+    border-radius: 5px;
+    margin: 20px auto;
+}
+@media screen and (max-width:480px){
+    table{
+        height: 200px;
+        width: 100%;
+        padding: 10px;
+        margin: 15px auto;
+        border: none;
+        font-size: x-small;
+    }
+    .LeaveTab{
+        display: flex;
+        flex-direction: column;
+        margin-top: 15px;
+    }
+    .LeaveTab img{
+        height: 200px;
+        width: 80%;
+        margin: 15px auto;
+    }
+    .content-Tab p{
+        font-size: 1.2rem;
+        margin-bottom: 10px;
+        text-align: center;
+    }
+    .Cancel{
+        font-size: 1.3rem;
+        height: 40px;
+        width: 200px;
+        margin: 10px auto;
+    }
+}
+@media screen and (max-width:768px) {
+    table{
+        height: 210px;
+        padding: 13px;
+        margin: 20px auto;
+    }
+    .LeaveTab{
+        display: flex;
+        flex-direction: column;
+        margin-top: 20px;
+    }
+    .LeaveTab img{
+        height: 200px;
+        width: 85%;
+        margin: 15px auto;
+    }
+    .content-Tab p{
+        font-size: 1.3rem;
+        margin-bottom: 12px;
+        text-align: center;
+    }
+    .Cancel{
+        font-size: 1.3rem;
+        height: 45px;
+        width: 200px;
+        margin: 10px auto;
+    }
+}
+@media screen and (max-width:992px) {
+    table{
+        height: 225px;
+        padding: 15px;
+        margin: 20px auto;
+    }
+    .LeaveTab{
+        display: flex;
+        flex-direction: column;
+        margin-top: 20px;
+    }
+    .LeaveTab img{
+        height: 230px;
+        width: 85%;
+        margin: 15px auto;
+    }
+    .content-Tab p{
+        font-size: 1.5rem;
+        margin-bottom: 12px;
+        text-align: center;
+    }
+    .Cancel{
+        font-size: 1.5rem;
+        height: 50px;
+        width: 220px;
+        margin: 10px auto;
+    }
+}

@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.MainNetflix{
+    background-color: black;
+}
+.Footer{
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 220px;
+    padding: 10px auto;
+}
+.Footer div{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    margin: 15px auto;
+}
+.Footer a{
+    color: white;
+    text-decoration: none;
+    margin-top: 10px;
+}
+.footer-head{
+    text-align: center;
+    color: white;
+}
